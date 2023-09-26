@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "Tools for working with genome scale metabolic models and flux balance analysis."
 authors = ["Braden-Griebel <bgriebel@uw.edu>"]
 readme = "README.md"
+license = "GPL-3.0-or-later"
 
 [tool.poetry.dependencies]
 python = ">=3.10, <3.11"
@@ -12,6 +13,8 @@ cobra = "^0.26.3"
 numpy = "^1.23.5"
 pandas = "^1.5.2"
 scipy = "^1.10.0"
+networkx = "^3.1"
+symengine = "^0.9.2"
 
 
 [tool.poetry.group.dev.dependencies]
